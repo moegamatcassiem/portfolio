@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#about {
+  display: flex;
+}
+
+.landing {
+  display: grid;
+  place-items: center;
+  color: white;
+  height: 100vh;
+  background-image: url(../images/rosie-fraser-1L71sPT5XKc-unsplash.jpg);
+  background-size: cover;
+}
+
+.headings h1 {
+  font-size: 50px;
+}
+
+.headings h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headings {
+  animation: type 1s steps(47);
+  overflow: hidden;
+  white-space: nowrap;
+}
+@keyframes type {
+  0% {
+    width: 0ch;
+  }
+  100% {
+    width: 47ch;
+  }
+}

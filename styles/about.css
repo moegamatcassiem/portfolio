@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(29, 29, 29);
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  font-size: 30px;
+  color: white;
+  margin-left: 10%;
+  margin-right: 5%;
+  gap: 30px;
+}
+
+.about h1 {
+  font-size: 80px;
+}
+
+.Picture {
+  height: 800px;
+  width: 900px;
+  object-fit: cover;
+  justify-content: flex-end;
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
+
+.split {
+  display: flex;
+}
