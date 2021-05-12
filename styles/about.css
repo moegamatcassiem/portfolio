@@ -20,6 +20,26 @@ body {
   gap: 30px;
 }
 
+.stats{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#stats{
+display: flex;
+}
+  
+.stats-2{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10%;
+}
 .about h1 {
   font-size: 80px;
 }
