@@ -40,3 +40,12 @@
     width: 47ch;
   }
 }
+
+@media (max-width: 550), (max-height: 900) {
+  .headings h1 {
+    font-size: 30px;
+  }
+  .headings h1 {
+    font-size: 20px;
+  }
+}

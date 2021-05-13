@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: rgb(29, 29, 29);
+}
+
 .split {
   display: flex;
 }
@@ -16,19 +20,21 @@
   height: 100vh;
   font-size: 20px;
   color: white;
-  margin-left: 10%;
+  margin-left: 5%;
   margin-right: 5%;
   gap: 30px;
 }
 
 .skills h1 {
   font-size: 80px;
+  margin-top: -30%;
 }
 
 .skills-cards {
   display: flex;
   justify-content: center;
   flex-direction: row;
+  flex-wrap: wrap;
   gap: 50px;
 }
 
@@ -92,12 +98,48 @@
   margin-top: 25%;
 }
 
+.skills-card-4{
+  background: rgba(59, 61, 59, 0.95);
+  box-shadow: 0 8px 32px 0 rgba(41, 170, 15, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 25%;
+  justify-content: center;
+  height: 230px;
+  width: 200px;
+  align-items: center;
+}
+
+.skills-content{
+  text-align: center;
+  padding: 40px;
+  color: #fff;
+  border-radius: 25px;
+}
+
+
 .Picture-3 {
   height: 800px;
-  width: 780px;
+  width: 700px;
   object-fit: cover;
   justify-content: flex-end;
   align-items: flex-end;
-  margin-left: 10%;
+  margin-left: -10%;
   margin-top: 10%;
+}
+
+.skills-card-1:hover{
+  box-shadow: 0 0px 20px 10px lime;
+}
+
+.skills-card-2:hover{
+  box-shadow: 0 0px 20px 10px lime;
+}
+
+.skills-card-3:hover{
+  box-shadow: 0 0px 20px 10px lime;
+}
+
+.skills-card-4:hover{
+  box-shadow: 0 0px 20px 10px lime;
 }

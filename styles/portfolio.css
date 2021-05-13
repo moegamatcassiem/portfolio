@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 
-.portfolio {
-  height: 100vh;
+body {
+  background-color: rgb(29, 29, 29);
 }
 
 .portfolio h1 {
@@ -79,9 +79,10 @@
   margin-right: 1%;
 }
 
-.button:hover {
-  font-size: 1.1em;
-  background: rgba(51, 9, 238, 0.8);
-  backdrop-filter: blur(1.5px);
-  -webkit-backdrop-filter: blur(1.5px);
+
+
+.card:hover{
+
+  box-shadow: 0 0px 20px 10px lime;
 }
+

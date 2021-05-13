@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moegamat Cassiem Dallas</title>
+    <link rel="stylesheet" href="../styles/navbar.css" />
+    <link rel="stylesheet" href="../styles/contact.css">
+    <script
+      src="https://kit.fontawesome.com/3285114a98.js"
+      crossorigin="anonymous"
+    ></script>
+   
+</head>
+<body>
+  <header id="header">
+    <nav class="navbar">
+      <ul class="navbar-links">
+        <li class="navbar-link">
+          <a href="./index.html" class="navbar-anchor"
+            ><i class="fas fa-home"></i><span class="tooltip">Home</span></a
+          >
+        </li>
+        <li class="navbar-link">
+          <a href="./about.html" class="navbar-anchor"
+            ><i class="far fa-user"></i
+          ><span class="tooltip">About</span></a>
+        </li>
+        <li class="navbar-link">
+          <a href="./exp.html" class="navbar-anchor"
+            ><i class="fas fa-book-open"></i
+          ><span class="tooltip">Experience</span></a>
+        </li>
+        <li class="navbar-link">
+          <a href="./skills.html" class="navbar-anchor"
+            ><i class="fas fa-tools"></i
+          ><span class="tooltip">Skills</span></a>
+        </li>
+        <li class="navbar-link">
+          <a href="./portfolio.html" class="navbar-anchor"
+            ><i class="far fa-eye"></i
+          ><span class="tooltip">Portfolio</span></a>
+        </li>
+        <li class="navbar-link">
+          <a href="./testimonial.html" class="navbar-anchor"
+            ><i class="fas fa-users"></i
+          ><span class="tooltip">Testimonial</span></a>
+        </li>
+        <li class="navbar-link">
+          <a href="./contact.html" class="navbar-anchor"
+            ><i class="far fa-envelope"></i
+          ><span class="tooltip">Contact</span></a>
+        </li>
+      </ul>
+      <button class="navbar-button" onclick="toggleNavbar()">M</button>
+    </nav>
+  </header>
+      <!--Contact-form-->
+
+    <section id="contact">
+        <div class="contact">
+          <p><h2><span style="color: gray;">Contact</span></h2></p>
+         
+      <div class="contact-details-container">
+        <div class="stuff">
+  
+          <div class="LCE">
+            <div class="location">
+              <i class="fas fa-map-marker-alt"></i>
+              <p class="details">
+                73 Sycamore Way, Bridgetown, Athlone</br>
+                Cape Town
+              </p>
+            </div>
+            <div class="cell">
+              <i class="fas fa-phone"></i>
+              <p class="details">+27 67 643 0779</p>
+            </div>
+            <div class="email">
+              <i class="far fa-envelope"></i>
+              <p class="details">dallascassiem704@gmail.com</p>
+            </div>
+          </div>
+  
+          <div class="social">
+            <div class="icons">
+              <i class="fab fa-facebook-f"></i>
+            </div>
+  
+            <div class="icons">
+              <i class="fab fa-twitter"></i>
+            </div>
+  
+            <div class="icons">
+              <i class="fab fa-linkedin-in"></i>
+            </div>
+  
+            <div class="icons">
+              <i class="fab fa-instagram"></i>
+            </div>
+          </div>
+        </div>
+        <form
+        id="contact-form"
+        action="https://formspree.io/f/xleadojb"
+        method="POST"
+      >
+  
+      <div class="contact-form">
+  
+        <div class="form-items">
+          <input
+          class="contact-input"
+          type="text"
+          name="full_name"
+          id="full_name"
+          placeholder="Full name"
+          required
+          />
+        </div>
+        
+        <div class="form-items">
+          <input
+          class="contact-input"
+          type="tel"
+          name="contact_no"
+          id="contact_no"
+          placeholder="067 643 0779"
+          required
+          />
+        </div>
+        
+        <div class="form-items">
+          <input
+          class="contact-input"
+          type="email"
+          name="email"
+          id="email"
+          placeholder="dallascassiem704@gmail.com"
+          required
+          />
+        </div>
+        
+        <div class="form-items">
+          <textarea
+          class="contact-input"
+          name="message"
+          id="message"
+          placeholder="Type your message here"
+          ></textarea>
+        </div>
+        <button class="button" type="submit">Send</button>
+      </div>
+      </form>
+    </div>
+  </div>
+  </section>
+  <script>
+    function toggleNavbar() {
+      document
+        .getElementsByClassName("navbar-links")[0]
+        .classList.toggle("active");
+    }
+  </script>
+</body>
+</html>
