@@ -81,3 +81,24 @@ margin-left: 8%;
 .exp-cards h2 h3 {
   gap: 30px;
 }
+
+@media only screen and (max-width:550px){
+  .Picture-2{
+    height: 400px;
+    width: 450px;
+    margin-left: 10%;
+  }
+  .split{
+    flex-wrap: wrap-reverse;
+  }
+  .exp-card-1{
+    width: 200px;
+  }
+  .exp-card-2{
+    width: 200px;
+  }
+  .ee-headings{
+    gap: 8%;
+  }
+
+}
