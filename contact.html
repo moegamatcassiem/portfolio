@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moegamat Cassiem Dallas</title>
     <link rel="stylesheet" href="../styles/navbar.css" />
-    <link rel="stylesheet" href="../styles/contact.css">
+    <link rel="stylesheet" href="./styles/contact.css">
     <link rel="stylesheet" href="./styles/footer.css">
     <script
       src="https://kit.fontawesome.com/3285114a98.js"
@@ -19,6 +19,9 @@
   <header id="header">
     <nav class="navbar">
       <ul class="navbar-links">
+        <a href="./index.html" class="navbar-anchor"
+        ><span style="background: lime; font-size: 80px;">M</span></a
+      >
         <li class="navbar-link">
           <a href="./index.html" class="navbar-anchor"
             ><i class="fas fa-home"></i><span class="tooltip">Home</span></a
@@ -55,7 +58,6 @@
           ><span class="tooltip">Contact</span></a>
         </li>
       </ul>
-      <button class="navbar-button" onclick="toggleNavbar()">M</button>
     </nav>
   </header>
       <!--Contact-form-->
@@ -156,12 +158,6 @@
   <p><span style="color: gray; font-size: 20px;">dallascassiem704@gamil.com</span></p>
 </footer>
 
-  <script>
-    function toggleNavbar() {
-      document
-        .getElementsByClassName("navbar-links")[0]
-        .classList.toggle("active");
-    }
-  </script>
+
 </body>
 </html>

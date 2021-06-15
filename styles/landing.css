@@ -15,6 +15,7 @@
   height: 100vh;
   background-image: url(../images/rosie-fraser-1L71sPT5XKc-unsplash.jpg);
   background-size: cover;
+  font-family: sans-serif;
 }
 
 .headings h1 {

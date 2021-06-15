@@ -10,16 +10,12 @@
   flex-direction: column;
   background: #222222;
   position: fixed;
-  /*top: -15%;*/
-  right: -100%;
   width: 70px;
   height: 100vh;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  text-transform: uppercase;
-  gap: 60px;
+  gap: 20px;
   font-family: sans-serif;
-  transition: all 0.4s;
 }
 
 .navbar-links.active {
@@ -37,15 +33,18 @@
   border: none;
   outline: none;
   padding: 20px;
-  color: white;
+  color: rgb(3, 3, 3);
   transform: skewY(180deg);
   transition: 2s;
+  background-color: lime;
+  width: 70px;
 }
 
 .navbar-anchor {
   color: white;
-  font-size: 30px;
+  font-size: 20px;
   position: relative;
+  text-decoration: none;
 }
 
 .navbar-anchor:hover {
@@ -62,7 +61,6 @@
   padding: 10px;
   transition: all 0.2s linear;
   font-size: 20px;
-  border-radius: 25%;
 }
 
 .navbar-anchor:hover .tooltip {
@@ -75,8 +73,8 @@
   transition: 0.4s;
 }
 
-@media only screen and (max-width:375px){
-  .navbar-links{
+@media only screen and (max-width: 375px) {
+  .navbar-links {
     gap: 25px;
   }
 }

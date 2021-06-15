@@ -16,6 +16,9 @@
   <header id="header">
     <nav class="navbar">
       <ul class="navbar-links">
+        <a href="./index.html" class="navbar-anchor"
+        ><span style="background: lime; font-size: 80px;">M</span></a
+      >
         <li class="navbar-link">
           <a href="./index.html" class="navbar-anchor"
             ><i class="fas fa-home"></i><span class="tooltip">Home</span></a
@@ -52,26 +55,21 @@
           ><span class="tooltip">Contact</span></a>
         </li>
       </ul>
-      <button class="navbar-button" onclick="toggleNavbar()">M</button>
     </nav>
   </header>
       <!--Portfolio-->
     <section id="portfolio">
         <div class="portfolio">
           <p><h1><span style="color: gray;">Portfolio</span></h1></p>
-          <p><h6><span style="color: lime;">Project Cards</span></h6></p>
           <div class="card-container">
-            <div class="card">
-              <img
-                src="/images/contact-form.png"
-                alt="Glassmorphic Form"
-                class="card-img"
-              />
+            <div class="card1">
+
               <div class="card-details">
+                <div class="overlay">
                 <h2 class="card-heading">Glassmorphic Form</h2>
                 <h3 class="card-subtitle">HTML/CSS</h3>
                 <p class="card-description">
-                  
+                  Made with HTML and CSS  using Glassmorphism 
                 </p>
                 <div class="card-buttons">
                   <a
@@ -87,19 +85,17 @@
                     >Github</a
                   >
                 </div>
+                </div>
               </div>
             </div>
-            <div class="card">
-              <img
-                src="/images/timeline.png"
-                alt="Glassmorphic Form"
-                class="card-img"
-              />
+            <div class="card2">
+              
               <div class="card-details">
+                <div class="overlay">
                 <h2 class="card-heading">Timeline</h2>
                 <h3 class="card-subtitle">HTML/CSS</h3>
                 <p class="card-description">
-                  
+                  Made with HTML and CSS  using Glassmorphism 
                 </p>
                 <div class="card-buttons">
                   <a
@@ -115,19 +111,17 @@
                     >Github</a
                   >
                 </div>
+                </div>
               </div>
             </div>
-            <div class="card">
-              <img
-                src="/images/testimonial.png"
-                alt="Glassmorphic Form"
-                class="card-img"
-              />
+            <div class="card3">
+              
               <div class="card-details">
+                <div class="overlay">
                 <h2 class="card-heading">Testimonial</h2>
                 <h3 class="card-subtitle">HTML/CSS</h3>
                 <p class="card-description">
-                  
+                  Made with HTML and CSS with the use of Glassmorphism and owl carousel slider
                 </p>
                 <div class="card-buttons">
                   <a
@@ -143,19 +137,17 @@
                     >Github</a
                   >
                 </div>
+                </div>
               </div>
             </div>
-            <div class="card">
-              <img
-                src="/images/sneaker-site.png"
-                alt="Glassmorphic Form"
-                class="card-img"
-              />
+            <div class="card4">
+              
               <div class="card-details">
-                <h2 class="card-heading">Sneaker Site</h2>
-                <h3 class="card-subtitle">HTML/CSS</h3>
+                <div class="overlay">
+                <h2 class="card-heading"><span style="color: black;">Sneaker Site</span></h2>
+                <h3 class="card-subtitle"><span style="color: black;">HTML/CSS</span></h3> 
                 <p class="card-description">
-                  
+                  <span style="color: black;">Made with HTML and CSS including owl carousel slider for client testimonial</span>
                 </p>
                 <div class="card-buttons">
                   <a
@@ -171,19 +163,17 @@
                     >Github</a
                   >
                 </div>
+                </div>
               </div>
             </div>
-            <div class="card">
-              <img
-                src="/images/temp-converter.png"
-                alt="Glassmorphic Form"
-                class="card-img"
-              />
+            <div class="card5">
+              
               <div class="card-details">
+                <div class="overlay">
                 <h2 class="card-heading">Temp-converter</h2>
                 <h3 class="card-subtitle">Python</h3>
                 <p class="card-description">
-                  
+                  Coded with Pycharm interpreter using Tkinter
                 </p>
                 <div class="card-buttons">
                   <a
@@ -199,18 +189,13 @@
                     >Github</a
                   >
                 </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <script>
-        function toggleNavbar() {
-          document
-            .getElementsByClassName("navbar-links")[0]
-            .classList.toggle("active");
-        }
-      </script>
+
 </body>
 </html>
