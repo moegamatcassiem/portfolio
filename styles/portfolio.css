@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rgb(29, 29, 29);
+  background:linear-gradient(#ff007f, #40e0d0);
   font-family: sans-serif;
 }
 
@@ -45,7 +45,7 @@ body {
   flex-direction: column;
   background-image: url(../images/contact-form.png);
   background-size: cover;
-  box-shadow: 0 8px 32px 0 rgba(75, 243, 9, 0.37);
+  box-shadow: 0 8px 32px 0 #40e0d0;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: 10px;
@@ -62,7 +62,7 @@ body {
   flex-direction: column;
   background-image: url(../images/timeline.png);
   background-size: cover;
-  box-shadow: 0 8px 32px 0 rgba(75, 243, 9, 0.37);
+  box-shadow: 0 8px 32px 0 #40e0d0;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: 10px;
@@ -79,7 +79,7 @@ body {
   flex-direction: column;
   background-image: url(../images/testimonial.png);
   background-size: cover;
-  box-shadow: 0 8px 32px 0 rgba(75, 243, 9, 0.37);
+  box-shadow: 0 8px 32px 0 #ff007f;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: 10px;
@@ -96,7 +96,7 @@ body {
   flex-direction: column;
   background-image: url(../images/sneaker-site.png);
   background-size: cover;
-  box-shadow: 0 8px 32px 0 rgba(75, 243, 9, 0.37);
+  box-shadow: 0 8px 32px 0 #ff007f;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: 10px;
@@ -113,7 +113,7 @@ body {
   flex-direction: column;
   background-image: url(../images/temp-converter.png);
   background-size: cover;
-  box-shadow: 0 8px 32px 0 rgba(75, 243, 9, 0.37);
+  box-shadow: 0 8px 32px 0 #ff007f;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: 10px;
