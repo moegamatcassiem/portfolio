@@ -14,6 +14,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 0%;
 }
 
 .portfolio h6 {
@@ -186,7 +187,7 @@ body {
 
 .button {
   background: rgba(255, 255, 255, 0.4);
-  box-shadow: 0 8px 32px 0 rgba(83, 172, 24, 0.37);
+  box-shadow: 0 8px 32px 0 #ff007f;
   backdrop-filter: blur(5.5px);
   -webkit-backdrop-filter: blur(5.5px);
   border-radius: 10px;
@@ -199,12 +200,12 @@ body {
 }
 
 .button:hover {
-  background-color: lime;
+  background-color:  #40e0d0;
   transition: 0.5s;
 }
 
 .card:hover {
-  box-shadow: 0 0px 20px 10px lime;
+  box-shadow: 0 0px 20px 10px #ff007f;
 }
 
 @media only screen and (max-width: 550px) {

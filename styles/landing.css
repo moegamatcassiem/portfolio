@@ -13,7 +13,7 @@
   place-items: center;
   color: white;
   height: 100vh;
-  background-image: url(../images/rosie-fraser-1L71sPT5XKc-unsplash.jpg);
+  background-image: url(../images/wp5633980.jpg);
   background-size: cover;
   font-family: sans-serif;
 }
@@ -28,10 +28,15 @@
   align-items: center;
 }
 
+.feet{
+  margin-bottom: -10%;
+}
+
 .headings {
   animation: type 1s steps(47);
   overflow: hidden;
   white-space: nowrap;
+  margin-top: 10%;
 }
 @keyframes type {
   0% {

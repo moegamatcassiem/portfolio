@@ -5,7 +5,7 @@
 }
 
 body {
-  background: linear-gradient(#ff007f, #40e0d0);
+  background: linear-gradient(45deg,#40e0d0,#ff007f, #40e0d0);
   font-family: sans-serif;
 }
 
@@ -13,13 +13,13 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 100vh;
+  height: 150vh;
   font-size: 30px;
   color: white;
-  margin-left: 10%;
-  margin-right: 5%;
+  margin-left: 5%;
+  /* margin-right: 5%; */
   gap: 30px;
-  margin-top: 20%;
+  margin-top: 5%;
 }
 
 .stats{
@@ -31,17 +31,10 @@ body {
 }
 
 #stats{
-display: flex;
+display: grid;
+justify-content: flex-start;
 }
   
-.stats-2{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 10%;
-}
 .about h1 {
   font-size: 80px;
 }
@@ -53,9 +46,9 @@ display: flex;
   justify-content: center;
   margin-bottom: 10%;
   margin-top: 10%;
-  margin-left: -10%;
-  margin-right: 30%;
-  position: fixed;
+  /* margin-left: -10%; */
+  /* margin-right: 30%; */
+  /* position: fixed; */
 }
 
 .split {
@@ -64,7 +57,7 @@ display: flex;
 
 .exp {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
   height: 100vh;
   font-size: 20px;
@@ -79,23 +72,27 @@ display: flex;
   display: flex;
 }
 
-.exp h1 {
-  font-size: 80px;
-  margin-top: -10%;
+.exp h2 {
+  /* font-size: 80px; */
+  /* margin-top: -10%; */
+  display: flex;
+  justify-content: flex-start;
+  margin-left: -10%;
 }
 
 .exp-cards {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: row;
-  gap: 50px;
+  margin-left: 5%;
+  gap: 60px;
 }
 
 .ee-headings {
   display: flex;
-  gap: 19%;
+  justify-content: flex-start;
+  gap: 15%;
   font-size: 30px;
-
 }
 
 .edu-heading{
@@ -103,7 +100,7 @@ margin-left: 8%;
 }
 
 .exp-card-1 {
-  background: rgba(59, 61, 59, 0.95);
+  background: linear-gradient(to top,#40e0d0,#ff007f, #40e0d0);
   box-shadow: 0 8px 32px 0 rgba(41, 170, 15, 0.37);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -113,7 +110,7 @@ margin-left: 8%;
 }
 
 .exp-card-2 {
-  background: rgba(59, 61, 59, 0.95);
+  background: linear-gradient(to top,#ff007f, #40e0d0);
   box-shadow: 0 8px 32px 0 rgba(41, 170, 15, 0.37);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
