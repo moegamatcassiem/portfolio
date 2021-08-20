@@ -4,10 +4,15 @@
   box-sizing: border-box;
 }
 
-body {
-  background:linear-gradient(#ff007f, #40e0d0);
-  font-family: sans-serif;
+:root{
+  --first-color: #000032;
+  --second-color: #ff5f1f; 
+  --fourth-color: rgba(255, 255, 255, 0.18);
+  --fifth-color: rgba(0, 0, 0, 0.9); 
+}
 
+body {
+  font-family: sans-serif;
 }
 
 .split {
@@ -19,7 +24,6 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100vh;
   font-size: 20px;
   color: white;
   margin-left: 5%;
@@ -29,7 +33,7 @@ body {
 
 .skills h1 {
   font-size: 80px;
-  margin-top: -30%;
+  margin-top: -20%;
 }
 
 .skills-cards {
@@ -41,7 +45,7 @@ body {
 }
 
 .skills-card-1 {
-  background:linear-gradient(90deg, #ff007f, #40e0d0);
+  background: var(--first-color);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: 50%;
@@ -60,7 +64,7 @@ body {
 }
 
 .skills-card-2 {
-  background:linear-gradient(90deg, #ff007f, #40e0d0);
+  background: var(--first-color);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: 50%;
@@ -79,7 +83,7 @@ body {
 }
 
 .skills-card-3 {
-  background:linear-gradient(90deg, #ff007f, #40e0d0);
+  background: var(--first-color);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: 50%;
@@ -98,7 +102,7 @@ body {
 }
 
 .skills-card-4{
-  background:linear-gradient(45deg, #ff007f, #40e0d0);
+  background: var(--first-color);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: 25%;
@@ -115,6 +119,23 @@ body {
   border-radius: 25px;
 }
 
+.skills-card-5{
+  background: var(--first-color);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 25%;
+  justify-content: center;
+  height: 230px;
+  width: 200px;
+  align-items: center;
+}
+
+.skills-content-2{
+  text-align: center;
+  padding: 40px;
+  color: #fff;
+  border-radius: 25px;
+}
 
 .Picture-3 {
   height: 800px;
@@ -127,19 +148,40 @@ body {
 }
 
 .skills-card-1:hover{
-  box-shadow: 0 0px 20px 10px #40e0d0;
+  box-shadow: 0 0px 20px 10px var(--second-color);
+  color: #ff5f1f;
 }
 
 .skills-card-2:hover{
-  box-shadow: 0 0px 20px 10px #40e0d0;
+  box-shadow: 0 0px 20px 10px var(--second-color);
+  color: #ff5f1f;
 }
 
 .skills-card-3:hover{
-  box-shadow: 0 0px 20px 10px #40e0d0;
+  box-shadow: 0 0px 20px 10px var(--second-color);
+  color: #ff5f1f;
 }
 
 .skills-card-4:hover{
-  box-shadow: 0 0px 20px 10px #ff007f;
+  box-shadow: 0 0px 20px 10px var(--second-color);
+  color: #ff5f1f;
+}
+
+.skills-card-5:hover{
+  box-shadow: 0 0px 20px 10px var(--second-color);
+  color: #ff5f1f;
+}
+
+#skills{
+  background: rgb(0, 0, 50);
+  height: 90vh;
+
+}
+
+#foot {
+  padding: 20px;
+  background-color: rgb(0, 0, 50);
+  height: 10vh;
 }
 
 @media only screen and (max-width:550px){

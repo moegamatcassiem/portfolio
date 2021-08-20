@@ -4,8 +4,16 @@
   box-sizing: border-box;
 }
 
+
+:root{
+  --first-color: #ff5f1f;
+  --second-color: #ff5f1f; 
+  --fourth-color: rgba(255, 255, 255, 0.18);
+  --fifth-color: rgba(0, 0, 0, 0.9); 
+}
+
 body {
-  background:linear-gradient(#ff007f, #40e0d0);
+  background:rgb(0, 0, 50);
   font-family: sans-serif;
 }
 
@@ -46,11 +54,10 @@ body {
   flex-direction: column;
   background-image: url(../images/contact-form.png);
   background-size: cover;
-  box-shadow: 0 8px 32px 0 #40e0d0;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid var(--fourth-color);
   overflow: hidden;
   color: white;
 }
@@ -63,11 +70,10 @@ body {
   flex-direction: column;
   background-image: url(../images/timeline.png);
   background-size: cover;
-  box-shadow: 0 8px 32px 0 #40e0d0;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid var(--fourth-color);
   overflow: hidden;
   color: white;
 }
@@ -80,11 +86,10 @@ body {
   flex-direction: column;
   background-image: url(../images/testimonial.png);
   background-size: cover;
-  box-shadow: 0 8px 32px 0 #ff007f;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid var(--fourth-color);
   overflow: hidden;
   color: white;
 }
@@ -97,11 +102,10 @@ body {
   flex-direction: column;
   background-image: url(../images/sneaker-site.png);
   background-size: cover;
-  box-shadow: 0 8px 32px 0 #ff007f;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid var(--fourth-color);
   overflow: hidden;
   color: white;
 }
@@ -114,11 +118,10 @@ body {
   flex-direction: column;
   background-image: url(../images/temp-converter.png);
   background-size: cover;
-  box-shadow: 0 8px 32px 0 #ff007f;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid var(--fourth-color);
   overflow: hidden;
   color: white;
 }
@@ -133,7 +136,7 @@ body {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background: rgba(0, 0, 0, 0.9);
+  background: var(--fifth-color);
   border-radius: 10px;
 }
 
@@ -187,7 +190,6 @@ body {
 
 .button {
   background: rgba(255, 255, 255, 0.4);
-  box-shadow: 0 8px 32px 0 #ff007f;
   backdrop-filter: blur(5.5px);
   -webkit-backdrop-filter: blur(5.5px);
   border-radius: 10px;
@@ -200,12 +202,12 @@ body {
 }
 
 .button:hover {
-  background-color:  #40e0d0;
+  background-color:  var(--second-color);
   transition: 0.5s;
 }
 
 .card:hover {
-  box-shadow: 0 0px 20px 10px #ff007f;
+  box-shadow: 0 0px 20px 10px var(--first-color);
 }
 
 @media only screen and (max-width: 550px) {
